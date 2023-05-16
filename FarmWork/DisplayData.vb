@@ -11,7 +11,7 @@ Public Class Display_Data
     End Sub
     Private Sub load_data()
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim sda As New MySqlDataAdapter
         Dim dbdataset As New DataTable
         Dim bsource As New BindingSource

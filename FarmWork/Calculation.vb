@@ -5,7 +5,7 @@ Public Class Calculation
     Dim command As MySqlCommand
     Private Sub Calculation_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -32,7 +32,7 @@ Public Class Calculation
 
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -66,7 +66,7 @@ Public Class Calculation
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -91,7 +91,7 @@ Public Class Calculation
     End Sub
     Private Sub refresh()
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try

@@ -12,7 +12,7 @@ Public Class Change_Data
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -40,7 +40,7 @@ Public Class Change_Data
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -68,7 +68,7 @@ Public Class Change_Data
     End Sub
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -97,7 +97,7 @@ Public Class Change_Data
     End Sub
     Private Sub form_load()
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -128,7 +128,7 @@ Public Class Change_Data
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -156,7 +156,7 @@ Public Class Change_Data
     End Sub
     Private Sub refresh()
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -186,7 +186,7 @@ Public Class Change_Data
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -215,7 +215,7 @@ Public Class Change_Data
 
     Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -237,7 +237,7 @@ Public Class Change_Data
 
     Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try

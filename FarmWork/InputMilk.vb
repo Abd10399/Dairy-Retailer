@@ -6,7 +6,7 @@ Public Class InputMilk
 
     Private Sub InputMilk_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -32,7 +32,7 @@ Public Class InputMilk
     End Sub
     Private Sub ListBox1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListBox1.SelectedIndexChanged
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try
@@ -65,7 +65,7 @@ Public Class InputMilk
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
         Dim Reader As MySqlDataReader
 
         Try

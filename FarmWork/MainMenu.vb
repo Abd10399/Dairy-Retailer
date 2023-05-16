@@ -40,7 +40,7 @@ Public Class Form1
 
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         mysqlconn = New MySqlConnection
-        mysqlconn.ConnectionString = "server=localhost;userid=root;password=Abdullah1234554321;database=farm2"
+        mysqlconn.ConnectionString = "server=localhost;userid=root;password=;database=farm2"
 
 
         Try
